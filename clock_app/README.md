@@ -22,4 +22,5 @@ Um aplicativo de relógio simples, desenvolvido com o objetivo de criar uma inte
 - google_fonts: [link](https://pub.dev/packages/google_fonts)
 - provider: [link](https://pub.dev/packages/provider)
 
-Este aplicativo foi desenvolvido junto com o vídeo do **Flutter Way**
+Este aplicativo foi desenvolvido junto com o vídeo do **Flutter Way** e pode ser acessado [aqui](https://www.youtube.com/watch?v=u6Cfzng3Gek).
+Foram aplicadas apenas pequenas correções e adaptações para que o código fosse funcional na nova versão do flutter/dart e que o horário fosse referente ao Brasil.
