@@ -14,7 +14,7 @@ class Body extends StatelessWidget {
         child: Column(
           children: [
             Text(
-              "Newport Beach, USA | PST",
+              "Bauru, SP",
               style: Theme.of(context).textTheme.bodyText1,
             ),
             TimeInHourAndMinute(),
@@ -26,17 +26,17 @@ class Body extends StatelessWidget {
               child: Row(
                 children: [
                   CountryCard(
-                    country: "New York, USA",
-                    timeZone: "+3 HRS | EST",
+                    country: "Nova Iorque, USA",
+                    timeZone: "-5 HR | GMT",
                     iconSrc: "assets/icons/Liberty.svg",
-                    time: "9:20",
+                    time: (TimeOfDay.now().hour-2).toString() + ":" + TimeOfDay.now().minute.toString(),
                     period: "PM",
                   ),
                   CountryCard(
                     country: "Sydney, AU",
-                    timeZone: "+19 HRS | AEST",
+                    timeZone: "+11 HR | GMT",
                     iconSrc: "assets/icons/Sydney.svg",
-                    time: "1:20",
+                    time: (TimeOfDay.now().hour+14-24).toString() + ":" + TimeOfDay.now().minute.toString(),
                     period: "AM",
                   ),
                 ],

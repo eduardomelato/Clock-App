@@ -37,7 +37,7 @@ class _TimeInHourAndMinuteState extends State<TimeInHourAndMinute> {
         Text(
           // if you use _timeOfDay.hour then it will show 20:10 like that
           // But we want 8:10
-          "${_timeOfDay.hourOfPeriod}:${_timeOfDay.minute}",
+          "${_timeOfDay.hour}:${_timeOfDay.minute}",
           style: Theme.of(context).textTheme.headline1,
         ),
         SizedBox(width: 5),
