@@ -1,16 +1,12 @@
-# clock_app
+# Simple Clock Application
 
-A simple clock application developed in flutter.
+This is a simple clock app, developed to create a beautiful UI supporting two themes (dark/light).
+It is a front-end only project, which means it may not reflect real time in some cases.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+**Packages Used in this App**
 
-A few resources to get you started if this is your first Flutter project:
+- flutter_svg: [link](https://pub.dev/packages/flutter_svg)
+- google_fonts: [link](https://pub.dev/packages/google_fonts)
+- provider: [link](https://pub.dev/packages/provider)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
