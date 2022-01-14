@@ -33,7 +33,7 @@ class Body extends StatelessWidget {
                     period: "PM",
                   ),
                   CountryCard(
-                    country: "Sydney, AU",
+                    country: "Sidney, AU",
                     timeZone: "+11 HR | GMT",
                     iconSrc: "assets/icons/Sydney.svg",
                     time: (TimeOfDay.now().hour+14-24).toString() + ":" + TimeOfDay.now().minute.toString(),

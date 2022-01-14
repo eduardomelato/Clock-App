@@ -45,6 +45,7 @@ class CountryCard extends StatelessWidget {
                 Text(timeZone),
                 Spacer(),
                 Row(
+                  crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     SvgPicture.asset(
                       iconSrc,
@@ -58,7 +59,7 @@ class CountryCard extends StatelessWidget {
                     ),
                     RotatedBox(
                       quarterTurns: 3,
-                      child: Text(period),
+                      child: Text("  "+ period, style: TextStyle(fontSize: 15.7),),
                     ),
                   ],
                 )
