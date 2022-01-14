@@ -31,13 +31,14 @@ class _TimeInHourAndMinuteState extends State<TimeInHourAndMinute> {
   @override
   Widget build(BuildContext context) {
     String _period = _timeOfDay.period == DayPeriod.am ? "AM" : "PM";
+    String _mins = TimeOfDay.now().minute<10? ('0' + TimeOfDay.now().minute.toString()) : TimeOfDay.now().minute.toString();
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Text(
           // if you use _timeOfDay.hour then it will show 20:10 like that
           // But we want 8:10
-          "${_timeOfDay.hour}:${_timeOfDay.minute}",
+          "${_timeOfDay.hour}:$_mins",
           style: Theme.of(context).textTheme.headline1,
         ),
         SizedBox(width: 5),
